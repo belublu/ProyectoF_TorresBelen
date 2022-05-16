@@ -1,3 +1,13 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #logoARP{
     width: 160px;
+}
+
+img{
+    width: 40px;
 }
