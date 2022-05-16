@@ -1,7 +1,39 @@
 div{
     background-color: #B695C0;
 }
-.row{
-    padding: 30px;
+
+
+#nombre{
+    font-weight: bold;
+    font-size: 25px;
     text-align: center;
+    margin-top: 10px;
+   
+}
+
+#titulo{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#ubicacion{
+    margin-top: -10px;
+    text-align: center;
+}
+
+#acerca{
+    font-size: large;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+#acercatext{
+    margin-left: 50px;
+}
+
+#fotobt{
+    margin-top: -30px;
+    margin-left: 20px;
+
 }
