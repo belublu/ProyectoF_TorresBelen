@@ -1,10 +1,12 @@
 
-
 .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 10px;
+}
+
+.redes{
+    margin-right: 15px;
 }
 
 #logoARP{
@@ -13,4 +15,9 @@
 
 img{
     width: 40px;
+}
+
+button{
+    border-width: 2px;
+    font-weight: bold;
 }
