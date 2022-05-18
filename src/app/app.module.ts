@@ -13,6 +13,7 @@ import { ExplabComponent } from './components/explab/explab.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HardsoftComponent } from './components/hardsoft/hardsoft.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { HardsoftComponent } from './components/hardsoft/hardsoft.component';
     AcercaDeMiComponent,
     ExplabComponent,
     EducacionComponent,
-    HardsoftComponent
+    HardsoftComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,5 @@
 div{
-    background-color: #ffd0a8;
+    background-color: #d7f8b8;
 }
 
 
@@ -33,16 +33,22 @@ div{
     margin-left: 30px;
 }
 
-#fotobt{
-    position: absolute;
-    left: 60px;
-    width: 20%;
-    top: 700px;
+/*Foto de perfil*/
+
+@media(min-width: 576px){
+    #fotobt{
+        position: absolute;
+        width: 20%;
+        left: 3%;
+        top: 700px;
+    }
 }
 
-#fotobt{
-    position: absolute;
-    left: 60px;
-    width: 20%;
-    top: 700px;
+@media(max-width: 575px){
+    #fotobt{
+        position: absolute;
+        width: 40%;
+        left: 33%;
+        top: 600px;
+    }
 }
